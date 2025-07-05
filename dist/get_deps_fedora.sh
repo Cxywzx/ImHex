@@ -1,14 +1,21 @@
 #!/usr/bin/env sh
 
-dnf install \
-  cmake \
-  gcc-c++ \
-  capstone-devel \
-  file-devel \
-  glfw-devel \
-  glm-devel \
-  mesa-libGL-devel \
-  mbedtls-devel \
-  python-devel \
-  freetype-devel \
-  gtk3
+dnf install -y      \
+  cmake             \
+  dbus-devel        \
+  file-devel        \
+  fontconfig-devel  \
+  freetype-devel    \
+  libcurl-devel     \
+  gcc-c++           \
+  git               \
+  mesa-libGL-devel  \
+  glfw-devel        \
+  lld               \
+  mbedtls-devel     \
+  gtk3-devel        \
+  libzstd-devel     \
+  zlib-devel        \
+  bzip2-devel       \
+  xz-devel          \
+  lz4-devel
